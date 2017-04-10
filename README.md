@@ -11,12 +11,12 @@ Olavo Curátola: olavo.curatola@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados do Sistema de Gestão da Manutenção dos Equipamentos e Instalações do IFES <nome do projeto> 
-<br>e motivação da escolha realizada. <br>
+
 
 <br>Sistema de Gestão da Manutenção dos Equipamentos e Instalações do IFES <br>
 Analisando o nível de utilização atual, dos equipamentos e instalações do Instituto Federal do Espírito Santo - IFES - Campus Serra, principalmente em função do aumento do número de usuários e da importância de se garantir a disponibilidade e reduzir a degradação dos equipamentos, consideramos ser necessário implementar um maior envolvimento dos usuários atraves de um sistema informatizado com interface para smartphones.
 O sistema almeja dar suporte à manutenção de salas, laboratórios, banheiros e demais instalações, bem como cadeiras, mesas, bancadas, computadores, monitores, projetores, iluminação, tomadas, modens, sistemas de som, e etc. Consequentemente procuramos viabilzar a implantação de um sistema em que os alunos, professores e demais funcionários possam  comunicar ao setor responsável qualquer mal funcionamento ou falha de equipamentos ou instalações para e destacar a necessidade de manutenção ou troca.<br>
-<br>A partir de um smartphone, com câmera e acesso a internet, o usuário preenche um formulário em uma aplicação, ou via site web (portabilidade), gerando uma ocorrência. Os dados são então enviados via sistema de gestão da manutenção ao setor responsável para as providências necessárias. O setor responsável deverá responder aos usuários quanto as providências até a solução definitiva da ocorrência registrada, com posterior avaliação pelos usuários..<br>
+<br>A partir de um smartphone, com câmera e acesso a internet, o usuário preenche um formulário em uma aplicação, ou via site web (portabilidade), gerando uma ocorrência. Os dados são então enviados via sistema de gestão da manutenção ao setor responsável para as providências necessárias. O setor responsável deverá responder aos usuários quanto as providências até a solução definitiva da ocorrência registrada, com posterior avaliação pelos usuários.<br>
 
 ### 3.MINI-MUNDO<br>
 
@@ -30,6 +30,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
 Sugestão: https://balsamiq.com/products/mockups/<br>
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Abrir%20Ocorr%C3%AAncia.png?raw=true "Abrir Ocorrência")
 
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 
