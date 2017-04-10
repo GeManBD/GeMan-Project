@@ -28,11 +28,14 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
-Abrir Ocorrência                Cadastro de Usuário                Cadastro de Equipamento
+
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Login.png)
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Cadastro%20Usu%C3%A1rio.png)
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Esqueci%20a%20senha.png)
 
 ![Alt text](https://github.com/GeManBD/trab01/blob/master/Abrir%20Ocorr%C3%AAncia.png)
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Cadastro%20Usu%C3%A1rio.png)
 ![Alt text](https://github.com/GeManBD/trab01/blob/master/Enviar%20Ocorr%C3%AAncia.png)
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Hist%C3%B3rico%20do%20Usu%C3%A1rio.png)
 
 ![Alt text](https://github.com/GeManBD/trab01/blob/master/Cadastro%20de%20Local.png)
 
