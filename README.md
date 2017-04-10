@@ -45,6 +45,9 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
     Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
     (esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
     e deve ser criada antes do modelo conceitual)
+    
+    OBS.: Essa tabela é provisória e representativa.
+    
 
 ### 5.MODELO CONCEITUAL<br>
     A) NOTACAO ENTIDADE RELACIONAMENTO
