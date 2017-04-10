@@ -47,7 +47,7 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
     e deve ser criada antes do modelo conceitual)
     
     OBS.: Essa tabela é provisória e representativa.
- ![Alt text](https://github.com/GeManBD/trab01/blob/master/Tabelas do sistema.png)
+ ![Alt text](https://github.com/GeManBD/trab01/blob/master/Tabelas%20do%20sistema.png)
 
 ### 5.MODELO CONCEITUAL<br>
     A) NOTACAO ENTIDADE RELACIONAMENTO
