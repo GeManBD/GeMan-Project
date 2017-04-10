@@ -31,6 +31,7 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 
 ![Alt text](https://github.com/GeManBD/trab01/blob/master/Abrir%20Ocorr%C3%AAncia.png?raw=true "Abrir Ocorrência")
 ![Alt text](https://github.com/GeManBD/trab01/blob/master/Cadastro%20Usu%C3%A1rio.png)
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Enviar%20Ocorr%C3%AAncia.png)
 ![Alt text](https://github.com/GeManBD/trab01/blob/master/Cadastro%20de%20Equipamento.png)
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
