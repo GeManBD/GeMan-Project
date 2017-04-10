@@ -30,7 +30,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
 ![Alt text](https://github.com/GeManBD/trab01/blob/master/Abrir%20Ocorr%C3%AAncia.png?raw=true "Abrir Ocorrência")
-
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Cadastro%20Usu%C3%A1rio.png)
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
