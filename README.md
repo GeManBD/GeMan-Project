@@ -5,17 +5,18 @@ Trabalho desenvolvido durante a disciplina de BD
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo:<br>
-gabriel_marchezi@hotmail.com<br>
-helenfranca93@gmail.com<br>
-olavo.curatola@gmail.com<br>
+Gabriel Marchezi: gabriel_marchezi@hotmail.com<br>
+Helen França: helenfranca93@gmail.com<br>
+Olavo Curátola: olavo.curatola@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
+Este documento contém a especificação do projeto do banco de dados do Sistema de Gestão da Manutenção dos Equipamentos e Instalações do IFES <nome do projeto> 
 <br>e motivação da escolha realizada. <br>
 
-<br>Sistema de Gestão de Manutenção de Instalações. <br>s
-Atualmente o foi analisado que o instituto federal do espírito santo (IFES)  campus serra, sofre com a depreciação de equipamentos, sejam eles: cadeiras, computadores, mesas e etc. Contudo, procuramos viabilzar a construção de um sistema em que os alunos e funcionários, possam  comunicar ao setor responsável a necessidade de manutenção ou troca.<br>
-<br>A partir de um smartphone, com câmera e acesso a internet, o usuário preenche um formulário em uma aplicação, ou via site web (portabilidade). Os dados são enviados a um sistema central na instituição onde será feito o processamento e análise da necessidade ou não de uma resposta: abrir um edital, realizar uma troca e etc. Essas respostas inicialmente serão dadas pelo setor que realiza as manutenções solicitadas e cada solicitação terá um controle realizado também pelo sistema em conjunto com o mantenedor para saber sobre o uso de sobressalentes, planos de manutenção, etc.<br>
+<br>Sistema de Gestão da Manutenção dos Equipamentos e Instalações do IFES <br>s
+Analisando o nível de utilização atual, dos equipamentos e instalações do Instituto Federal do Espírito Santo - IFES - Campus Serra, principalmente em função do aumento do número de usuários e da importância de se garantir a disponibilidade e reduzir a degradação dos equipamentos, consideramos ser necessário implementar um maior envolvimento dos usuários atraves de um sistema informatizado com interface para smartphones.
+O sistema almeja dar suporte à manutenção de salas, laboratórios, banheiros e demais instalações, bem como cadeiras, mesas, bancadas, computadores, monitores, projetores, iluminação, tomadas, modens, sistemas de som, e etc. Consequentemente procuramos viabilzar a implantação de um sistema em que os alunos, professores e demais funcionários possam  comunicar ao setor responsável qualquer mal funcionamento ou falha de equipamentos ou instalações para e destacar a necessidade de manutenção ou troca.<br>
+<br>A partir de um smartphone, com câmera e acesso a internet, o usuário preenche um formulário em uma aplicação, ou via site web (portabilidade), gerando uma ocorrência. Os dados são então enviados via sistema de gestão da manutenção ao setor responsável para as providências necessárias. O setor responsável deverá responder aos usuários quanto as providências até a solução definitiva da ocorrência registrada, com posterior avaliação pelos usuários..<br>
 
 ### 3.MINI-MUNDO<br>
 
