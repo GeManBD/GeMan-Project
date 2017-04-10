@@ -30,7 +30,9 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
 ![Alt text](https://github.com/GeManBD/trab01/blob/master/Abrir%20Ocorr%C3%AAncia.png)
+Abrir Ocorrência
 ![Alt text](https://github.com/GeManBD/trab01/blob/master/Cadastro%20Usu%C3%A1rio.png)
+Cadastro de Usuário
 ![Alt text](https://github.com/GeManBD/trab01/blob/master/Enviar%20Ocorr%C3%AAncia.png)
 
 ![Alt text](https://github.com/GeManBD/trab01/blob/master/Cadastro%20de%20Local.png)
