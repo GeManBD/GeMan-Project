@@ -20,11 +20,27 @@ O sistema almeja dar suporte à manutenção de salas, laboratórios, banheiros 
 
 ### 3.MINI-MUNDO<br>
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
-Entrevista com o usuário e identificação dos requisitos.<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
+Descrição do GeMan
+    O sistema de gestão de manutenção GeMan objetiva dar suporte à realização dos serviços de manutenção de equipamentos e instalações, bem como às atividades de administração e controle da manutenção. O sistema será composto de:
+•	Cadastro de Local e Instalações
+•	Cadastro de Equipamentos
+•	Identificação de Locais e Equipamentos por Barcode
+•	Cadastro de Usuários
+•	Cadastro de Padrões de Serviço
+•	Cadastro de Planos de Manutenção
+•	Abertura de Ordem de Serviço
+•	Programação da Ordem de Serviço - Execução
+•	Fechamento da Ordem de Serviço – Execução
+•	Histórico de Ordens de Serviço Executadas
+•	Registro de Ocorrências pelo Usuário
+•	Histórico de Ocorrências por Usuário
+•	 Feedback ao Usuário
+•	Avaliação da Solução da Ocorrência pelo Usuário
+
+    O gerenciamento do sistema é de responsabilidade da equipe de manutenção. O cadastramento dos Locais e Instalações, e dos Equipamentos e a Identificação com Barcode será realizado com base em desenhos e manuais e demais documentos técnicos. 
+    Os padrões de serviço e a elaboração dos planos de manutenção serão elaborados com base nas recomendações dos fabricantes dos equipamentos, nas melhores práticas das especialidades e na experiência da equipe de manutenção.
+    As ocorrências serão geradas pelos usuários cadastrados no sistema que a princípio seriam os alunos, professores e demais funcionários exceto pessoal da equipe de manutenção. O usuário geraria a ocorrência ao se deparar com um mal funcionamento ou indisponibilidade de equipamentos ou instalações. Para isto usaria a interface mobile para descrever e identificar o local ou equipamento, com barcode ou patrimônio, acompanhado eventualmente de uma foto.
+    O supervisor de manutenção será responsável por promover a classificação e agrupamento das ocorrências geradas e pela abertura da ordem de serviço para diagnóstico e solução do problema reportado na ocorrência e pelo feedback ao usuário.
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
