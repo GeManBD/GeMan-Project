@@ -41,6 +41,8 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 
 ![Alt text](https://github.com/GeManBD/trab01/blob/master/Cadastro%20de%20Equipamento.png)
 
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Hist%C3%B3rico.png)
+
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
     (esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
