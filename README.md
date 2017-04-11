@@ -19,7 +19,6 @@ O sistema almeja dar suporte à manutenção de salas, laboratórios, banheiros 
 <br>A partir de um smartphone, com câmera e acesso a internet, o usuário preenche um formulário em uma aplicação, ou via site web (portabilidade), gerando uma ocorrência. Os dados são então enviados via sistema de gestão da manutenção ao setor responsável para as providências necessárias. O setor responsável deverá responder aos usuários quanto as providências até a solução definitiva da ocorrência registrada, com posterior avaliação pelos usuários.<br>
 
 ### 3.MINI-MUNDO<br>
-http://www.dicasdeprogramacao.com.br/a-primeira-fase-de-um-projeto-de-banco-de-dados/
 
 Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
 Entrevista com o usuário e identificação dos requisitos.<br>
@@ -43,6 +42,36 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 ![Alt text](https://github.com/GeManBD/trab01/blob/master/Cadastro%20de%20Equipamento.png)
 
 ![Alt text](https://github.com/GeManBD/trab01/blob/master/Hist%C3%B3rico.png)
+
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Login%20-%20Desktop.png)
+
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Ocorr%C3%AAncias.png)
+
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Ocorr%C3%AAncias%20(2).png)
+
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Ocorr%C3%AAncias%20(3).png)
+
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Padr%C3%A3o%20de%20Servi%C3%A7o%20(Alterar).png)
+
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Padr%C3%A3o%20de%20Servi%C3%A7o%20(Consulta).png)
+
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Padr%C3%A3o%20de%20Servi%C3%A7o%20(Registrar).png)
+
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Padr%C3%A3o%20de%20Servi%C3%A7o.png)
+
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Plano%20de%20Execu%C3%A7%C3%A3o.png)
+
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Plano%20de%20Manuten%C3%A7%C3%A3o%20Equipamento%20(1).png)
+
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Plano%20de%20Manuten%C3%A7%C3%A3o%20Equipamento%20(2).png)
+
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Plano%20de%20Manuten%C3%A7%C3%A3o%20Local%20(1).png)
+
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Plano%20de%20Manuten%C3%A7%C3%A3o%20Local%20(2).png)
+
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Plano%20de%20Manuten%C3%A7%C3%A3o%20Local.png)
+
+
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
