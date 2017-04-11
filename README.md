@@ -29,8 +29,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Login.png)<br>
-xxx
+![Alt text](https://github.com/GeManBD/trab01/blob/master/Login.png) xxx<br>
 ![Alt text](https://github.com/GeManBD/trab01/blob/master/Cadastro%20Usu%C3%A1rio.png)
 ![Alt text](https://github.com/GeManBD/trab01/blob/master/Esqueci%20a%20senha.png)
 
