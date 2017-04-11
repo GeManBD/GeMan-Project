@@ -19,6 +19,7 @@ O sistema almeja dar suporte à manutenção de salas, laboratórios, banheiros 
 <br>A partir de um smartphone, com câmera e acesso a internet, o usuário preenche um formulário em uma aplicação, ou via site web (portabilidade), gerando uma ocorrência. Os dados são então enviados via sistema de gestão da manutenção ao setor responsável para as providências necessárias. O setor responsável deverá responder aos usuários quanto as providências até a solução definitiva da ocorrência registrada, com posterior avaliação pelos usuários.<br>
 
 ### 3.MINI-MUNDO<br>
+http://www.dicasdeprogramacao.com.br/a-primeira-fase-de-um-projeto-de-banco-de-dados/
 
 Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
 Entrevista com o usuário e identificação dos requisitos.<br>
