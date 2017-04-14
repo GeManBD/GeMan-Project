@@ -93,7 +93,7 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
     Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
     (esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
     e deve ser criada antes do modelo conceitual)
-    
+
     OBS.: Essa tabela é provisória e representativa.
 ![Alt text](https://github.com/GeManBD/trab01/blob/master/Tabela%20do%20sistema.PNG)
 
