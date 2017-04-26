@@ -99,7 +99,7 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 
 ### 5.MODELO CONCEITUAL<br>
     A) NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/GeManBD/trab01/blob/master/GeMan%20Conceitual_v3.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/GeManBD/trab01/blob/master/GeMan%20Conceitual_v3.PNG?raw=true "Modelo Conceitual")
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
