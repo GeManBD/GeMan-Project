@@ -15,8 +15,8 @@ Este documento contém a especificação do projeto do banco de dados do Sistema
 
 <br>Sistema de Gestão da Manutenção dos Equipamentos e Instalações do IFES <br>
 Analisando o nível de utilização atual dos equipamentos e instalações do Instituto Federal do Espírito Santo - IFES - Campus Serra, principalmente em função do aumento do número de usuários e da importância de se garantir a disponibilidade e reduzir a degradação dos equipamentos, consideramos ser necessário implementar um maior envolvimento dos usuários atraves de um sistema informatizado com interface para smartphones.
-O sistema almeja dar suporte à manutenção de salas, laboratórios, banheiros e demais instalações, bem como cadeiras, mesas, bancadas, computadores, monitores, projetores, iluminação, tomadas, modens, sistemas de som, e etc. Consequentemente procuramos viabilzar a implantação de um sistema em que os alunos, professores e demais funcionários possam  comunicar ao setor responsável qualquer mal funcionamento ou falha de equipamentos ou instalações para e destacar a necessidade de manutenção ou troca.<br>
-<br>A partir de um smartphone, com câmera e acesso a internet, o usuário preenche um formulário em uma aplicação, ou via site web (portabilidade), gerando uma ocorrência. Os dados são então enviados via sistema de gestão da manutenção ao setor responsável para as providências necessárias. O setor responsável deverá responder aos usuários quanto as providências até a solução definitiva da ocorrência registrada, com posterior avaliação pelos usuários.<br>
+O sistema almeja dar suporte à manutenção de salas, laboratórios, banheiros e demais instalações, bem como cadeiras, mesas, bancadas, computadores, monitores, projetores, iluminação, tomadas, modens, sistemas de som, e etc. Consequentemente procuramos viabilzar a implantação de um sistema em que os alunos, professores e demais funcionários possam  comunicar ao setor responsável qualquer mal funcionamento ou falha de equipamentos ou instalações para e destacar a necessidade de manutenção ou troca.
+<br>A partir de um smartphone, com câmera e acesso a internet, o usuário preenche um formulário em uma aplicação, ou via site web (portabilidade), gerando uma ocorrência. Os dados são então enviados via sistema de gestão da manutenção ao setor responsável para as providências necessárias. O setor responsável deverá responder aos usuários quanto as providências até a solução definitiva da ocorrência registrada, com posterior avaliação pelos usuários.
 
 ### 3.MINI-MUNDO<br>
 
@@ -30,7 +30,7 @@ O sistema almeja dar suporte à manutenção de salas, laboratórios, banheiros 
 <br>   O supervisor de manutenção será responsável por promover a classificação e agrupamento das ocorrências geradas e pela abertura da ordem de serviço para diagnóstico e solução do problema reportado na ocorrência e pelo feedback ao usuário.<br>
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Os protótipos de telas desenvolvidas para este banco de dados de manutenção permitirão o acesso por smartphones e via computadores pessoais ou computadores de mesa.<br>
+Os protótipos de telas, desenvolvidas para este banco de dados de manutenção, permitirão o acesso por smartphones e via computadores pessoais ou computadores de mesa.<br>
 Mobile - https://drive.google.com/open?id=0BwRw4D_ya7GSR1hucE5KUjcxY1U<br>
 Desktop - https://drive.google.com/open?id=0BwRw4D_ya7GSeWlONGFMOGxSTUU<br>
 
@@ -80,7 +80,6 @@ Desktop - https://drive.google.com/open?id=0BwRw4D_ya7GSeWlONGFMOGxSTUU<br>
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas DDL 
         (criação de tabelas, alterações, etc..)
-        
         
         
         Entrega até este ponto em: (Data a ser definida)
