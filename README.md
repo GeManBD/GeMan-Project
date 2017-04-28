@@ -43,52 +43,9 @@ O sistema almeja dar suporte à manutenção de salas, laboratórios, banheiros 
 <br>   O supervisor de manutenção será responsável por promover a classificação e agrupamento das ocorrências geradas e pela abertura da ordem de serviço para diagnóstico e solução do problema reportado na ocorrência e pelo feedback ao usuário.<br>
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
-https://drive.google.com/open?id=0BwRw4D_ya7GSeWlONGFMOGxSTUU
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Login.png)
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Cadastro%20Usu%C3%A1rio.png)
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Esqueci%20a%20senha.png)
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Abrir%20Ocorr%C3%AAncia.png)
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Enviar%20Ocorr%C3%AAncia.png)
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Hist%C3%B3rico%20do%20Usu%C3%A1rio.png)
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Cadastro%20de%20Local.png)
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Cadastro%20de%20Equipamento.png)
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Hist%C3%B3rico.png)
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Login%20-%20Desktop.png)
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Ocorr%C3%AAncias.png)
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Ocorr%C3%AAncias%20(2).png)
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Ocorr%C3%AAncias%20(3).png)
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Padr%C3%A3o%20de%20Servi%C3%A7o%20(Alterar).png)
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Padr%C3%A3o%20de%20Servi%C3%A7o%20(Consulta).png)
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Padr%C3%A3o%20de%20Servi%C3%A7o%20(Registrar).png)
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Padr%C3%A3o%20de%20Servi%C3%A7o.png)
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Plano%20de%20Execu%C3%A7%C3%A3o.png)
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Plano%20de%20Manuten%C3%A7%C3%A3o%20Equipamento%20(1).png)
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Plano%20de%20Manuten%C3%A7%C3%A3o%20Equipamento%20(2).png)
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Plano%20de%20Manuten%C3%A7%C3%A3o%20Local%20(1).png)
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Plano%20de%20Manuten%C3%A7%C3%A3o%20Local%20(2).png)
-
-![Alt text](https://github.com/GeManBD/trab01/blob/master/Plano%20de%20Manuten%C3%A7%C3%A3o%20Local.png)
-
-
+Os protótipos de telas desenvolvidas para este banco de dados de manutenção permitirão o acesso por smartphones e via computadores pessoais ou computadores de mesa.<br>
+Mobile - https://drive.google.com/open?id=0BwRw4D_ya7GSR1hucE5KUjcxY1U
+Desktop - https://drive.google.com/open?id=0BwRw4D_ya7GSeWlONGFMOGxSTUU
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
