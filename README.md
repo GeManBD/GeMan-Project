@@ -22,20 +22,7 @@ O sistema almeja dar suporte à manutenção de salas, laboratórios, banheiros 
 
 <br>Descrição do GeMan<br>
 <br>   O sistema de gestão de manutenção GeMan objetiva dar suporte à realização dos serviços de manutenção de equipamentos e instalações, bem como às atividades de administração e controle da manutenção. O sistema será composto de:<br>
-<br>•	Cadastro de Local e Instalações<br>
-<br>•	Cadastro de Equipamentos<br>
-<br>•	Identificação de Locais e Equipamentos por Barcode<br>
-<br>•	Cadastro de Usuários<br>
-<br>•	Cadastro de Padrões de Serviço<br>
-<br>•	Cadastro de Planos de Manutenção<br>
-<br>•	Abertura de Ordem de Serviço<br>
-<br>•	Programação da Ordem de Serviço - Execução<br>
-<br>•	Fechamento da Ordem de Serviço – Execução<br>
-<br>•	Histórico de Ordens de Serviço Executadas<br>
-<br>•	Registro de Ocorrências pelo Usuário<br>
-<br>•	Histórico de Ocorrências por Usuário<br>
-<br>•	 Feedback ao Usuário<br>
-<br>•	Avaliação da Solução da Ocorrência pelo Usuário<br>
+<br>Cadastro de Local e Instalações, Cadastro de Equipamentos, Identificação de Locais e Equipamentos por Barcode, Cadastro de Usuários, Cadastro de Padrões de Serviço, Cadastro de Planos de Manutenção, Abertura de Ordem de Serviço, Programação da Ordem de Serviço - Execução, Fechamento da Ordem de Serviço – Execução, Histórico de Ordens de Serviço Executadas, Registro de Ocorrências pelo Usuário, Histórico de Ocorrências por Usuário, Feedback ao Usuário, e Avaliação da Solução da Ocorrência pelo Usuário.<br>
 
 <br>    O gerenciamento do sistema é de responsabilidade da equipe de manutenção. O cadastramento dos Locais e Instalações, e dos Equipamentos e a Identificação com Barcode será realizado com base em desenhos e manuais e demais documentos técnicos.<br>
 <br>   Os padrões de serviço e a elaboração dos planos de manutenção serão elaborados com base nas recomendações dos fabricantes dos equipamentos, nas melhores práticas das especialidades e na experiência da equipe de manutenção.<br>
@@ -44,8 +31,8 @@ O sistema almeja dar suporte à manutenção de salas, laboratórios, banheiros 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Os protótipos de telas desenvolvidas para este banco de dados de manutenção permitirão o acesso por smartphones e via computadores pessoais ou computadores de mesa.<br>
-Mobile - https://drive.google.com/open?id=0BwRw4D_ya7GSR1hucE5KUjcxY1U
-Desktop - https://drive.google.com/open?id=0BwRw4D_ya7GSeWlONGFMOGxSTUU
+Mobile - https://drive.google.com/open?id=0BwRw4D_ya7GSR1hucE5KUjcxY1U<br>
+Desktop - https://drive.google.com/open?id=0BwRw4D_ya7GSeWlONGFMOGxSTUU<br>
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
