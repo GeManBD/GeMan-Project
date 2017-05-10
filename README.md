@@ -33,8 +33,6 @@ O sistema almeja dar suporte à manutenção de salas, laboratórios, banheiros 
 Os protótipos de telas, desenvolvidas para este banco de dados de manutenção, permitirão o acesso por smartphones e via computadores pessoais ou computadores de mesa.<br>
 Mobile - https://drive.google.com/open?id=0BwRw4D_ya7GSR1hucE5KUjcxY1U<br>
 Desktop - https://drive.google.com/open?id=0BwRw4D_ya7GSeWlONGFMOGxSTUU<br>
-
-![Alt text](https://github.com/GeManBD/GeMan-Project/Protótipo-Desktop2017-04-09.pdf?raw=true "XX")
  
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
