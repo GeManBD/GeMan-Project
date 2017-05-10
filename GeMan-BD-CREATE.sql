@@ -13,7 +13,8 @@ Create Table Equipamento(
 	ID int not null primary key,
 	Nome varchar(45),
 	Descricao varchar(45),
-	Patrimonio int not null);
+	Patrimonio int not null
+	id_local int);
 
 Create Table Plano(
 	ID int not null primary key,
