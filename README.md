@@ -34,7 +34,8 @@ Os protótipos de telas, desenvolvidas para este banco de dados de manutenção,
 Mobile - https://drive.google.com/open?id=0BwRw4D_ya7GSR1hucE5KUjcxY1U<br>
 Desktop - https://drive.google.com/open?id=0BwRw4D_ya7GSeWlONGFMOGxSTUU<br>
 
- ![Alt text](GeMan-Project/Protótipo-Desktop2017-04-09.pdf)
+ ![Alt text](https://github.com/GeManBD/GeMan-Project/Protótipo-Desktop2017-04-09.pdf)
+ 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
     (esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
