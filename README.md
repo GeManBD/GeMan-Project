@@ -81,7 +81,7 @@ Desktop - https://drive.google.com/open?id=0BwRw4D_ya7GSeWlONGFMOGxSTUU<br>
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas DDL (criação de tabelas, alterações, etc..)
         Entrega até este ponto em: (Data a ser definida)
-   https://github.com/GeManBD/GeMan-Project/blob/master/GeMan-BD-CREATE.sql?raw=true
+https://github.com/GeManBD/GeMan-Project/blob/master/GeMan-BD-CREATE.sql?raw=true
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
@@ -94,7 +94,8 @@ Desktop - https://drive.google.com/open?id=0BwRw4D_ya7GSeWlONGFMOGxSTUU<br>
 
 #### 8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
         a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-        b) inclusão das instruções para execução de outros procedimentos necessários (caso existam)
+        b) inclusão das instruções para execução de outros procedimentos necessários (caso existam) 
+https://raw.githubusercontent.com/GeManBD/GeMan-Project/master/GeMan-BD-INSERT.sql
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
