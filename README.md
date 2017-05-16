@@ -79,10 +79,8 @@ Desktop - https://drive.google.com/open?id=0BwRw4D_ya7GSeWlONGFMOGxSTUU<br>
         (não serão aceitos modelos que não estejam em conformidade)
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..)
-![Alt text](https://github.com/GeManBD/GeMan-Project/GeMan-BD-CREATE.sql?raw=true "Modelo Físico")       
- 
+        a) inclusão das instruções de criacão das estruturas DDL (criação de tabelas, alterações, etc..)
+        
         Entrega até este ponto em: (Data a ser definida)
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
