@@ -103,7 +103,8 @@ https://raw.githubusercontent.com/GeManBD/GeMan-Project/master/GeMan-BD-INSERT.s
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         
-        
+https://github.com/GeManBD/GeMan-Project/blob/master/GeMan-BD-CREATE-INSERT.sql
+
         Entrega até este ponto em: (Data a ser definida)
 
 
