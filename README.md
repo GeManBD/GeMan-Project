@@ -110,6 +110,7 @@ https://github.com/GeManBD/GeMan-Project/blob/master/GeMan-BD-CREATE-INSERT.sql
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+https://github.com/GeManBD/GeMan-Project/blob/master/Consulta%20Tabelas.sql
         Entrega até este ponto em: (Data a ser definida)
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
