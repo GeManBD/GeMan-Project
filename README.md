@@ -113,6 +113,8 @@ https://github.com/GeManBD/GeMan-Project/blob/master/GeMan-BD-CREATE-INSERT.sql
 https://github.com/GeManBD/GeMan-Project/blob/master/Consulta%20Tabelas.sql
      <br>Entrega até este ponto em: (Data a ser definida)
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3)<br>
+https://github.com/GeManBD/GeMan-Project/blob/master/select_where.sql
+
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3) <br>
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
