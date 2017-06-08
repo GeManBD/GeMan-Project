@@ -196,9 +196,18 @@ order by ocorrencia.id
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_93_2.PNG)
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3) <br>
-![Alt text]()
-![Alt text]()
-![Alt text]()
+
+SELECT * FROM USUARIOS WHERE NAME LIKE 'D%';
+
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_94_1.PNG)
+
+SELECT * FROM ORDEM_DE_SERVICO WHERE DESCRICAO LIKE 'Verificar%';
+
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_94_2.PNG)
+
+SELECT * FROM LOCAL WHERE NOME LIKE 'Sala%';
+
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_94_3.PNG)
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)<br>
