@@ -69,6 +69,8 @@ Desktop - https://drive.google.com/open?id=0BwRw4D_ya7GSeWlONGFMOGxSTUU<br>
     EXEMPLO:
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
     CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    
+    https://github.com/GeManBD/GeMan-Project/blob/master/GeMan_Descricao-PDF.pdf
 
 
 ### 6	MODELO LÓGICO<br>
