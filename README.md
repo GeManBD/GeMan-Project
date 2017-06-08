@@ -180,10 +180,10 @@ SELECT PATRIMONIO FROM EQUIPAMENTO WHERE NOME = 'Ar condicionado';
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 
 select equipamento.patrimonio as "Patrimônio", equipamento.nome as "Equipamentos do Primeiro Andar" from equipamento
-inner join local
-on (local.id_andar=2)
-group by equipamento.patrimonio, equipamento.nome having equipamento.patrimonio<900000
-order by equipamento.patrimonio
+inner join local<br>
+on (local.id_andar=2)<br>
+group by equipamento.patrimonio, equipamento.nome having equipamento.patrimonio<900000<br>
+order by equipamento.patrimonio<br>
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_93_1.PNG)
 
