@@ -187,11 +187,11 @@ order by equipamento.patrimonio<br>
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_93_1.PNG)
 
-select ordem_de_servico.descricao as "OS - Aberta", ocorrencia.descricao as "Problema Relatado" from ordem_de_servico
-inner join ocorrencia
-on (ocorrencia.id=ordem_de_servico.id_ocorrencia )
-group by ocorrencia.id, ordem_de_servico.descricao,ordem_de_servico.data<='2017/07/01' having ordem_de_servico.data<='2017/07/01'
-order by ocorrencia.id
+select ordem_de_servico.descricao as "OS - Aberta", ocorrencia.descricao as "Problema Relatado" from ordem_de_servico<br>
+inner join ocorrencia<br>
+on (ocorrencia.id=ordem_de_servico.id_ocorrencia )<br>
+group by ocorrencia.id, ordem_de_servico.descricao,ordem_de_servico.data<='2017/07/01' having ordem_de_servico.data<='2017/07/01'<br>
+order by ocorrencia.id<br>
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_93_2.PNG)
 
