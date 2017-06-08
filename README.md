@@ -112,15 +112,94 @@ https://github.com/GeManBD/GeMan-Project/blob/master/GeMan-BD-CREATE-INSERT.sql
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-https://github.com/GeManBD/GeMan-Project/blob/master/Consulta%20Tabelas.sql
-     <br>Entrega até este ponto em: (Data a ser definida)
+ 
+SELECT * FROM public.andar
+ORDER BY id DESC
+
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_andar.png)
+
+SELECT * FROM public.equipamento
+ORDER BY id ASC 
+
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_equipamento.png)
+
+SELECT * FROM public.local
+ORDER BY id ASC 
+
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_local.png)
+
+SELECT * FROM public.ocorrencia
+ORDER BY id ASC 
+
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_ocorrencia.png)
+
+SELECT * FROM public.ordem_de_servico
+ORDER BY id ASC 
+
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_ordem_de_servico.png)
+
+SELECT * FROM public.padrao
+ORDER BY id ASC 
+
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_padrao.png)
+
+SELECT * FROM public.perfil
+ORDER BY id ASC 
+
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_perfil.png)
+
+SELECT * FROM public.plano
+ORDER BY id ASC 
+
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_perfil_plano.png)
+
+SELECT * FROM public.status
+ORDER BY id ASC 
+
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_status.png)
+
+SELECT * FROM public.usuario
+ORDER BY matricula ASC, id ASC 
+
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_usuario.png)
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3)<br>
-https://github.com/GeManBD/GeMan-Project/blob/master/select_where.sql
+
+SELECT NOME FROM ANDAR WHERE ID >  1;
+
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_92_1.PNG)
+
+SELECT NOME FROM USUARIO WHERE ID_PERFIL = 3;
+
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_92_2.PNG)
+
+SELECT PATRIMONIO FROM EQUIPAMENTO WHERE NOME = 'Ar condicionado';
+
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_92_3.PNG)
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
-https://github.com/GeManBD/GeMan-Project/blob/master/Consulta%20Logica%20Renomeada.sql
+
+select equipamento.patrimonio as "Patrimônio", equipamento.nome as "Equipamentos do Primeiro Andar" from equipamento
+inner join local
+on (local.id_andar=2)
+group by equipamento.patrimonio, equipamento.nome having equipamento.patrimonio<900000
+order by equipamento.patrimonio
+
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_93_1.PNG)
+
+select ordem_de_servico.descricao as "OS - Aberta", ocorrencia.descricao as "Problema Relatado" from ordem_de_servico
+inner join ocorrencia
+on (ocorrencia.id=ordem_de_servico.id_ocorrencia )
+group by ocorrencia.id, ordem_de_servico.descricao,ordem_de_servico.data<='2017/07/01' having ordem_de_servico.data<='2017/07/01'
+order by ocorrencia.id
+
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_93_2.PNG)
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3) <br>
+![Alt text]()
+![Alt text]()
+![Alt text]()
+
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)<br>
         Entrega até este ponto em: (Data a ser definida)
