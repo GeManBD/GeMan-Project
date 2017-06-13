@@ -118,77 +118,67 @@ https://github.com/GeManBD/GeMan-Project/blob/master/GeMan-BD-CREATE-INSERT.sql
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
  
-SELECT * FROM public.andar
-ORDER BY id DESC
+SELECT * FROM andar ORDER BY id DESC
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_andar.png)
 
-SELECT * FROM public.equipamento
-ORDER BY id ASC 
+SELECT * FROM equipamento ORDER BY id ASC 
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_equipamento.png)
 
-SELECT * FROM public.local
-ORDER BY id ASC 
+SELECT * FROM local ORDER BY id ASC 
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_local.png)
 
-SELECT * FROM public.ocorrencia
-ORDER BY id ASC 
+SELECT * FROM ocorrencia ORDER BY id ASC 
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_ocorrencia.png)
 
-SELECT * FROM public.ordem_de_servico
-ORDER BY id ASC 
+SELECT * FROM ordem_de_servico ORDER BY id ASC 
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_ordem_de_servico.png)
 
-SELECT * FROM public.padrao
-ORDER BY id ASC 
+SELECT * FROM padrao ORDER BY id ASC 
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_padrao.png)
 
-SELECT * FROM public.perfil
-ORDER BY id ASC 
+SELECT * FROM perfil ORDER BY id ASC 
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_perfil.png)
 
-SELECT * FROM public.plano
-ORDER BY id ASC 
+SELECT * FROM plano ORDER BY id ASC 
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_perfil_plano.png)
 
-SELECT * FROM public.status
-ORDER BY id ASC 
+SELECT * FROM status ORDER BY id ASC 
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_status.png)
 
-SELECT * FROM public.usuario
-ORDER BY matricula ASC, id ASC 
+SELECT * FROM usuario ORDER BY matricula ASC, id ASC 
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/print_select_usuario.png)
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3)<br>
 
-SELECT NOME FROM ANDAR WHERE ID >  1;
+SELECT nome FROM andar WHERE id >  1;
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_92_1.PNG)
 
-SELECT NOME FROM USUARIO WHERE ID_PERFIL = 3;
+SELECT nome FROM usuario WHERE id_perfil = 3;
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_92_2.PNG)
 
-SELECT PATRIMONIO FROM EQUIPAMENTO WHERE NOME = 'Ar condicionado';
+SELECT patrimonio FROM equipamento WHERE nome = 'Ar condicionado';
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_92_3.PNG)
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 
-select equipamento.patrimonio as "Patrimônio", equipamento.nome as "Equipamentos do Primeiro Andar" from equipamento
-inner join local<br>
-on (local.id_andar=2)<br>
-group by equipamento.patrimonio, equipamento.nome having equipamento.patrimonio<900000<br>
-order by equipamento.patrimonio<br>
+SELECT equipamento.patrimonio AS "Patrimônio", equipamento.nome AS "Equipamentos do Primeiro Andar" FROM equipamento
+INNER JOIN local<br>
+ON (local.id_andar=2)<br>
+GROUP BY equipamento.patrimonio, equipamento.nome HAVING equipamento.patrimonio<900000<br>
+ORDER BY equipamento.patrimonio<br>
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_93_1.PNG)
 
@@ -202,15 +192,15 @@ order by ocorrencia.id<br>
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3) <br>
 
-SELECT * FROM USUARIOS WHERE NAME LIKE 'D%';
+SELECT * FROM usuario WHERE nome LIKE 'D%';
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_94_1.PNG)
 
-SELECT * FROM ORDEM_DE_SERVICO WHERE DESCRICAO LIKE 'Verificar%';
+SELECT * FROM ordem_de_servico WHERE descricao LIKE 'Verificar%';
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_94_2.PNG)
 
-SELECT * FROM LOCAL WHERE NOME LIKE 'Sala%';
+SELECT * FROM local WHERE nome LIKE 'Sala%';
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_94_3.PNG)
 
