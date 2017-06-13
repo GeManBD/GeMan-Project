@@ -39,8 +39,6 @@ Desktop - https://drive.google.com/open?id=0BwRw4D_ya7GSeWlONGFMOGxSTUU<br>
     (esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
     e deve ser criada antes do modelo conceitual)
 
-    OBS.: Essa tabela é provisória e representativa.
-
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/Tabela%20Dados-1.PNG)
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/Tabela%20Dados-2.PNG)
