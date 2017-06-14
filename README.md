@@ -56,8 +56,8 @@ Desktop - https://drive.google.com/open?id=0BwRw4D_ya7GSeWlONGFMOGxSTUU<br>
         e tuplas falsas
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    BCLL-CantinaIFES: Brenno Milanezi, Luiz Antônio Roque, Caio Pupolin
+    Projeto Evasão/Automação Assistência Estudantil: Paulo Ricardo Viana, Antônio carlos Lemos, Lucas Oliveira Garcia
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
