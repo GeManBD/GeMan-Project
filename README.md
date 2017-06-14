@@ -71,10 +71,10 @@ Desktop - https://github.com/GeManBD/GeMan-Project/blob/master/Prototipos/Prot%C
  
    Padrao: Tabela que armazena dados dos Padrões de Serviço;<br>
 
-    &emsp       ID: Número Serial atribuído a cada Padrão (chave primária da Tabela Padrao);<br>
-    &emsp      Descricao: Descrição do Padrão de Serviço, ou seja, como o serviço deve ser feito, seguindo<br>
-    &emsp       instruções de segurança, manuseio, ferramentas e outros;<br>
-    &emsp       Link: URL para acesso do Padrão de Serviço;<br>
+           ID: Número Serial atribuído a cada Padrão (chave primária da Tabela Padrao);<br>
+           Descricao: Descrição do Padrão de Serviço, ou seja, como o serviço deve ser feito, seguindo<br>
+           instruções de segurança, manuseio, ferramentas e outros;<br>
+           Link: URL para acesso do Padrão de Serviço;<br>
 
    Status: Tabela que possui as 3 situações possíveis de uma ocorrência;<br>
            ID: Número Serial atribuído a cada um dos 3 status de uma ocorrência(chave primária da Tabela<br>
