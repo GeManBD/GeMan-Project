@@ -32,7 +32,7 @@ O sistema almeja dar suporte à manutenção de salas, laboratórios, banheiros 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Os protótipos de telas, desenvolvidas para este banco de dados de manutenção, permitirão o acesso por smartphones e via computadores pessoais ou computadores de mesa.<br>
 Mobile - https://github.com/GeManBD/GeMan-Project/blob/master/Prototipos/Prot%C3%B3tipo-Mobile%202017-04-09.pdf<br>
-Desktop - https://drive.google.com/open?id=0BwRw4D_ya7GSeWlONGFMOGxSTUU<br>
+Desktop - https://github.com/GeManBD/GeMan-Project/blob/master/Prototipos/Prot%C3%B3tipo-Desktop2017-04-09.pdf<br>
  
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
