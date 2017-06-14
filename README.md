@@ -69,81 +69,82 @@ Desktop - https://github.com/GeManBD/GeMan-Project/blob/master/Prototipos/Prot%C
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
  
-   Padrao: Tabela que armazena dados dos Padrões de Serviço;
+   Padrao: Tabela que armazena dados dos Padrões de Serviço;<br>
 
-           ID: Número Serial atribuído a cada Padrão (chave primária da Tabela Padrao);
-           Descricao: Descrição do Padrão de Serviço, ou seja, como o serviço deve ser feito, seguindo
-           instruções de segurança, manuseio, ferramentas e outros;
-           Link: URL para acesso do Padrão de Serviço;
+           ID: Número Serial atribuído a cada Padrão (chave primária da Tabela Padrao);<br>
+           Descricao: Descrição do Padrão de Serviço, ou seja, como o serviço deve ser feito, seguindo<br>
+           instruções de segurança, manuseio, ferramentas e outros;<br>
+           Link: URL para acesso do Padrão de Serviço;<br>
 
-   Status: Tabela que possui as 3 situações possíveis de uma ocorrência;
-           ID: Número Serial atribuído a cada um dos 3 status de uma ocorrência(chave primária da Tabela
-           Status);
-           Nome: Definição de cada Status. Podendo ser “resolvido”, “em andamento” e “em espera”;
+   Status: Tabela que possui as 3 situações possíveis de uma ocorrência;<br>
+           ID: Número Serial atribuído a cada um dos 3 status de uma ocorrência(chave primária da Tabela<br>
+           Status);<br>
+           Nome: Definição de cada Status. Podendo ser “resolvido”, “em andamento” e “em espera”;<br>
    
-   Andar: Tabela que contém os andares das instalações;
-           ID: Número Serial atribuído a cada andar (chave primária da Tabela Andar);
-           Nome: Definição do andar (Ex: Primeiro andar, Segundo andar...);
+   Andar: Tabela que contém os andares das instalações;<br>
+           ID: Número Serial atribuído a cada andar (chave primária da Tabela Andar);<br>
+           Nome: Definição do andar (Ex: Primeiro andar, Segundo andar...);<br>
 
-   Plano: Tabela que contém os dados do Plano de Manutenção;
-          ID: Número Serial atribuído a cada Plano de Manutenção (chave primária da Tabela Plano);
-          Nome: Atividade a ser executada de acordo com o plano de manutenção (Ex: Revisão dos
-          projetores, limpeza dos aparelhos de ar-condicionado);
-          Frequencia: Intervalo de tempo, em meses, entre as execuções da tarefa em específico;
+   Plano: Tabela que contém os dados do Plano de Manutenção;<br>
+          ID: Número Serial atribuído a cada Plano de Manutenção (chave primária da Tabela Plano);<br>
+          Nome: Atividade a ser executada de acordo com o plano de manutenção (Ex: Revisão dos<br>
+          projetores, limpeza dos aparelhos de ar-condicionado);<br>
+          Frequencia: Intervalo de tempo, em meses, entre as execuções da tarefa em específico;<br>
 
-   Perfil: Tabela que possui os 3 perfis possíveis de um usuário;
-          ID: Número Serial atribuído a cada Perfil de Usuário (chave primária da Tabela Perfil);
-          Nome: Caracteriza o usuário a qual foi relacionado como “Aluno”, ”Servidor” ou
-          “Manutenção”. 
+   Perfil: Tabela que possui os 3 perfis possíveis de um usuário;<br>
+          ID: Número Serial atribuído a cada Perfil de Usuário (chave primária da Tabela Perfil);<br>
+          Nome: Caracteriza o usuário a qual foi relacionado como “Aluno”, ”Servidor” ou<br>
+          “Manutenção”. <br>
 
-   Local: Tabela que possui dados dos locais das instalações sob domínio do GeMan;
-          ID: Número Serial atribuído a cada Local (chave primária da Tabela Local);
-          Bloco: Bloco no qual está presente o local;
-          Nome: Nome do local (Ex.: Sala 107, Lab. 208);
-          ID_ANDAR: Andar no qual o local se encontra (chave estrangeira exportada da Tabela Andar);
+   Local: Tabela que possui dados dos locais das instalações sob domínio do GeMan;<br>
+          ID: Número Serial atribuído a cada Local (chave primária da Tabela Local);<br>
+          Bloco: Bloco no qual está presente o local;<br>
+          Nome: Nome do local (Ex.: Sala 107, Lab. 208);<br>
+          ID_ANDAR: Andar no qual o local se encontra (chave estrangeira exportada da Tabela Andar);<br>
 
-   Equipamento: Tabela que possui dados dos Equipamentos sob domínio do GeMan;
-          ID: Número Serial atribuído a cada Equipamento (chave primária da Tabela Equipamento);
-          Nome: Nome do equipamento (Ex.: Cadeira, Mesa, Projetor...);
-          Descrição: Características do equipamento em questão;
-          ID_LOCAL: Local em que se encontra o equipamento(chave estrangeira exportada da Tabela
-          Local);
+   Equipamento: Tabela que possui dados dos Equipamentos sob domínio do GeMan;<br>
+          ID: Número Serial atribuído a cada Equipamento (chave primária da Tabela Equipamento);<br>
+          Nome: Nome do equipamento (Ex.: Cadeira, Mesa, Projetor...);<br>
+          Descrição: Características do equipamento em questão;<br>
+          ID_LOCAL: Local em que se encontra o equipamento(chave estrangeira exportada da Tabela<br>
+          Local);<br>
 
-   Usuario: Tabela que possui as informações dos usuários cadastrados no GeMan;
-          ID: Número Serial atribuído a cada usuário (chave primária da Tabela Usuario);
-          Matricula: O número de matrícula do aluno ou servidor;
-          Nome: Nome do Usuário (Ex.: Olavo Curatola);
-          Login: Login de acesso escolhido pelo usuário;
-          Senha: Senha de acesso escolhida pelo usuário;
-          Email: E-mail cadastrado pelo usuário;
-          ID_PERFIL: Define se o usuário é aluno, professor ou técnico de manutenção (chave estrangeira
-          exportada da Tabela Perfil);
+   Usuario: Tabela que possui as informações dos usuários cadastrados no GeMan;<br>
+          ID: Número Serial atribuído a cada usuário (chave primária da Tabela Usuario);<br>
+          Matricula: O número de matrícula do aluno ou servidor;<br>
+          Nome: Nome do Usuário (Ex.: Olavo Curatola);<br>
+          Login: Login de acesso escolhido pelo usuário;<br>
+          Senha: Senha de acesso escolhida pelo usuário;<br>
+          Email: E-mail cadastrado pelo usuário;<br>
+          ID_PERFIL: Define se o usuário é aluno, professor ou técnico de manutenção (chave estrangeira<br>
+          exportada da Tabela Perfil);<br>
 
-   Ocorrencia: Tabela que possui as informações das Ocorrências;
-          ID: Número Serial atribuído a cada ocorrência (chave primária da Tabela Ocorrencia);
-          Descricao: Pequeno texto descritivo, deixando claro a situação que motivou a abertura da
-          ocorrência;
-          Data: Data da abertura da ocorrência;
-          Feedback: Pequeno texto enviado, por um técnico de manutenção, ao usuário que abriu a
-          ocorrência;
-          ID_STATUS: Situação da ocorrência(chave estrangeira exportada da Tabela Status); 
-          ID_USUARIO: Número Serial atribuído ao usuário que abriu a ocorrência (chave estrangeira da
-          Tabela Usuario);
-          Matricula: Número de Matrícula do usuário que abriu a ocorrência (chave estrangeria da
-          Tabela Usuario);
-    Ordem_de_Servico: Tabela que possui as informações das ordens de serviço;
-          ID: Número Serial atribuído a cada Ordem de Serviço (chave primária da Tabela
-          Ordem_de_Servico);
-          Descricao: Pequeno texto que informa o objetivo do serviço;
-          Data: data de execução do serviço;
-          ID_EQUIPAMENTO: Número Serial do equipamento alvo do serviço (chave estrangeira
-          exportada da Tabela Equipamento);
-          ID_OCORRENCIA: Número Serial da ocorrência que gerou a ordem de serviço (chave
-          estrangeira exportada da Tabela Ocorrencia);
-          ID_PLANO: Número Serial do Plano de Manutenção (chave estrangeira exportada da Tabela
-          Plano);
-          ID_PADRAO: Número Serial do Padrão de Serviço a ser adotado pela Ordem de Serviço (chave
-          estrangeria exportada da Tabela Padrao); 
+   Ocorrencia: Tabela que possui as informações das Ocorrências;<br>
+          ID: Número Serial atribuído a cada ocorrência (chave primária da Tabela Ocorrencia);<br>
+          Descricao: Pequeno texto descritivo, deixando claro a situação que motivou a abertura da<br>
+          ocorrência;<br>
+          Data: Data da abertura da ocorrência;<br>
+          Feedback: Pequeno texto enviado, por um técnico de manutenção, ao usuário que abriu a<br>
+          ocorrência;<br>
+          ID_STATUS: Situação da ocorrência(chave estrangeira exportada da Tabela Status); <br>
+          ID_USUARIO: Número Serial atribuído ao usuário que abriu a ocorrência (chave estrangeira da<br>
+          Tabela Usuario);<br>
+          Matricula: Número de Matrícula do usuário que abriu a ocorrência (chave estrangeria da<br>
+          Tabela Usuario);<br>
+    
+    Ordem_de_Servico: Tabela que possui as informações das ordens de serviço;<br>
+          ID: Número Serial atribuído a cada Ordem de Serviço (chave primária da Tabela<br>
+          Ordem_de_Servico);<br>
+          Descricao: Pequeno texto que informa o objetivo do serviço;<br><br>
+          Data: data de execução do serviço;<br>
+          ID_EQUIPAMENTO: Número Serial do equipamento alvo do serviço (chave estrangeira<br>
+          exportada da Tabela Equipamento);<br>
+          ID_OCORRENCIA: Número Serial da ocorrência que gerou a ordem de serviço (chave<br>
+          estrangeira exportada da Tabela Ocorrencia);<br>
+          ID_PLANO: Número Serial do Plano de Manutenção (chave estrangeira exportada da Tabela<br>
+          Plano);<br>
+          ID_PADRAO: Número Serial do Padrão de Serviço a ser adotado pela Ordem de Serviço (chave<br>
+          estrangeria exportada da Tabela Padrao); <br>
 
     
 https://github.com/GeManBD/GeMan-Project/blob/master/GeMan_Descricao-PDF.pdf
