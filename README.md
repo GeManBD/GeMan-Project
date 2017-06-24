@@ -152,7 +152,7 @@ https://github.com/GeManBD/GeMan-Project/blob/master/GeMan_Descricao-PDF.pdf
 
 ### 6	MODELO LÓGICO<br>
         a) inclusão do modelo lógico do banco de dados
-![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/Imagens%20Projeto/GeMan%20L%C3%B3givo_v9.jpg?)
+![Alt text]()
 
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
