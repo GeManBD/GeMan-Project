@@ -277,6 +277,7 @@ SELECT * FROM local WHERE nome LIKE 'Sala%';
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_94_3.PNG)
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+https://github.com/GeManBD/GeMan-Project/blob/master/atual_exclude.sql<br>
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)<br>
         Entrega até este ponto em: (Data a ser definida)
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
