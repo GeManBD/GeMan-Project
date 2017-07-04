@@ -60,6 +60,8 @@ Desktop - https://github.com/GeManBD/GeMan-Project/blob/master/Prototipos/Prot%C
     Projeto Evasão/Automação Assistência Estudantil: Paulo Ricardo Viana, Antônio carlos Lemos, Lucas Oliveira Garcia
 
 #### 5.2 DECISÕES DE PROJETO
+    Em todo projeto decidimos por seguir a normalidade aplicada a criação de banco de dados.
+    
     [atributo]: [descrição da decisão]
     
     EXEMPLO:
@@ -69,14 +71,14 @@ Desktop - https://github.com/GeManBD/GeMan-Project/blob/master/Prototipos/Prot%C
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
  
-   Padrao: Tabela que armazena dados dos Padrões de Serviço;<br>
+   
 
            ID: Número Serial atribuído a cada Padrão (chave primária da Tabela Padrao);<br>
            Descricao: Descrição do Padrão de Serviço, ou seja, como o serviço deve ser feito, seguindo<br>
            instruções de segurança, manuseio, ferramentas e outros;<br>
            Link: URL para acesso do Padrão de Serviço;<br>
-
-   Status: Tabela que possui as 3 situações possíveis de uma ocorrência;<br>
+   Padrao: Tabela que armazena dados dos Padrões de Serviço;<br>
+           Status: Tabela que possui as 3 situações possíveis de uma ocorrência;<br>
            ID: Número Serial atribuído a cada um dos 3 status de uma ocorrência(chave primária da Tabela<br>
            Status);<br>
            Nome: Definição de cada Status. Podendo ser “resolvido”, “em andamento” e “em espera”;<br>
@@ -118,6 +120,20 @@ Desktop - https://github.com/GeManBD/GeMan-Project/blob/master/Prototipos/Prot%C
           Email: E-mail cadastrado pelo usuário;<br>
           ID_PERFIL: Define se o usuário é aluno, professor ou técnico de manutenção (chave estrangeira<br>
           exportada da Tabela Perfil);<br>
+          
+   Ordem_de_Servico: Tabela que possui as informações das ordens de serviço;<br>
+          ID: Número Serial atribuído a cada Ordem de Serviço (chave primária da Tabela<br>
+          Ordem_de_Servico);<br>
+          Descricao: Pequeno texto que informa o objetivo do serviço;<br><br>
+          Data: data de execução do serviço;<br>
+          ID_EQUIPAMENTO: Número Serial do equipamento alvo do serviço (chave estrangeira<br>
+          exportada da Tabela Equipamento);<br>
+          ID_OCORRENCIA: Número Serial da ocorrência que gerou a ordem de serviço (chave<br>
+          estrangeira exportada da Tabela Ocorrencia);<br>
+          ID_PLANO: Número Serial do Plano de Manutenção (chave estrangeira exportada da Tabela<br>
+          Plano);<br>
+          ID_PADRAO: Número Serial do Padrão de Serviço a ser adotado pela Ordem de Serviço (chave<br>
+          estrangeria exportada da Tabela Padrao); <br>       
 
    Ocorrencia: Tabela que possui as informações das Ocorrências;<br>
           ID: Número Serial atribuído a cada ocorrência (chave primária da Tabela Ocorrencia);<br>
@@ -132,19 +148,7 @@ Desktop - https://github.com/GeManBD/GeMan-Project/blob/master/Prototipos/Prot%C
           Matricula: Número de Matrícula do usuário que abriu a ocorrência (chave estrangeria da<br>
           Tabela Usuario);<br>
     
-    Ordem_de_Servico: Tabela que possui as informações das ordens de serviço;<br>
-          ID: Número Serial atribuído a cada Ordem de Serviço (chave primária da Tabela<br>
-          Ordem_de_Servico);<br>
-          Descricao: Pequeno texto que informa o objetivo do serviço;<br><br>
-          Data: data de execução do serviço;<br>
-          ID_EQUIPAMENTO: Número Serial do equipamento alvo do serviço (chave estrangeira<br>
-          exportada da Tabela Equipamento);<br>
-          ID_OCORRENCIA: Número Serial da ocorrência que gerou a ordem de serviço (chave<br>
-          estrangeira exportada da Tabela Ocorrencia);<br>
-          ID_PLANO: Número Serial do Plano de Manutenção (chave estrangeira exportada da Tabela<br>
-          Plano);<br>
-          ID_PADRAO: Número Serial do Padrão de Serviço a ser adotado pela Ordem de Serviço (chave<br>
-          estrangeria exportada da Tabela Padrao); <br>
+    
 
     
 https://github.com/GeManBD/GeMan-Project/blob/master/GeMan_Descricao-PDF.pdf
@@ -254,11 +258,11 @@ ORDER BY equipamento.patrimonio<br>
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_93_1.PNG)
 
-select ordem_de_servico.descricao as "OS - Aberta", ocorrencia.descricao as "Problema Relatado" from ordem_de_servico<br>
-inner join ocorrencia<br>
-on (ocorrencia.id=ordem_de_servico.id_ocorrencia )<br>
-group by ocorrencia.id, ordem_de_servico.descricao,ordem_de_servico.data<='2017/07/01' having ordem_de_servico.data<='2017/07/01'<br>
-order by ocorrencia.id<br>
+SELECT ordem_de_servico.descricao AS "OS - Aberta", ocorrencia.descricao AS "Problema Relatado" FROM ordem_de_servico<br>
+INNER JOIN ocorrencia<br>
+ON (ocorrencia.id=ordem_de_servico.id_ocorrencia )<br>
+GROUP BY ocorrencia.id, ordem_de_servico.descricao,ordem_de_servico.data<='2017/07/01' HAVING ordem_de_servico.data<='2017/07/01'<br>
+ORDER BY ocorrencia.id<br>
 
 ![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/imagens/select_93_2.PNG)
 
