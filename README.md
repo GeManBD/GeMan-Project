@@ -281,6 +281,7 @@ https://github.com/GeManBD/GeMan-Project/blob/master/atual_exclude.sql<br>
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)<br>
 https://github.com/GeManBD/GeMan-Project/blob/master/join_group.sql<br>
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
+https://github.com/GeManBD/GeMan-Project/blob/master/group_by.sql<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Todas Possíveis)<br>
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
