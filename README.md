@@ -71,8 +71,6 @@ Desktop - https://github.com/GeManBD/GeMan-Project/blob/master/Prototipos/Prot%C
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
  
-   
-
            ID: Número Serial atribuído a cada Padrão (chave primária da Tabela Padrao);<br>
            Descricao: Descrição do Padrão de Serviço, ou seja, como o serviço deve ser feito, seguindo<br>
            instruções de segurança, manuseio, ferramentas e outros;<br>
@@ -124,7 +122,7 @@ Desktop - https://github.com/GeManBD/GeMan-Project/blob/master/Prototipos/Prot%C
    Ordem_de_Servico: Tabela que possui as informações das ordens de serviço;<br>
           ID: Número Serial atribuído a cada Ordem de Serviço (chave primária da Tabela<br>
           Ordem_de_Servico);<br>
-          Descricao: Pequeno texto que informa o objetivo do serviço;<br><br>
+          Descricao: Pequeno texto que informa o objetivo do serviço;<br>
           Data: data de execução do serviço;<br>
           ID_EQUIPAMENTO: Número Serial do equipamento alvo do serviço (chave estrangeira<br>
           exportada da Tabela Equipamento);<br>
@@ -133,7 +131,7 @@ Desktop - https://github.com/GeManBD/GeMan-Project/blob/master/Prototipos/Prot%C
           ID_PLANO: Número Serial do Plano de Manutenção (chave estrangeira exportada da Tabela<br>
           Plano);<br>
           ID_PADRAO: Número Serial do Padrão de Serviço a ser adotado pela Ordem de Serviço (chave<br>
-          estrangeria exportada da Tabela Padrao); <br>       
+          estrangeria exportada da Tabela Padrao); <br><br>       
 
    Ocorrencia: Tabela que possui as informações das Ocorrências;<br>
           ID: Número Serial atribuído a cada ocorrência (chave primária da Tabela Ocorrencia);<br>
