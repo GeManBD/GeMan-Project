@@ -285,6 +285,7 @@ https://github.com/GeManBD/GeMan-Project/blob/master/group_by.sql<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 https://github.com/GeManBD/GeMan-Project/blob/master/left_right_join.sql<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Todas Possíveis)<br>
+https://github.com/GeManBD/GeMan-Project/blob/master/self_join_view.sql<br>
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
         Entrega até este ponto em: (Data a ser definida)
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
