@@ -47,7 +47,7 @@ Desktop - https://github.com/GeManBD/GeMan-Project/blob/master/Prototipos/Prot%C
 
 ### 5.MODELO CONCEITUAL<br>
     A) NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/Imagens%20Projeto/GeMan%20Conceitual_v9.jpg?)
+![Alt text](https://github.com/GeManBD/GeMan-Project/blob/master/Imagens%20Projeto/GeMan_Conceitual_v9.1.jpg)
    
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
